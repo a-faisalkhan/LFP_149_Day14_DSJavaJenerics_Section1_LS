@@ -19,6 +19,11 @@ public class LinkedListMain {
 		LinkedList.add(30);
 		LinkedList.add(70);
 		LinkedList.print();
+		
+		//UC-4
+//		LinkedList.insert(30);
+//		System.out.println("\nAfter inserting the 30 between 56 and 70");
+//		LinkedList.print();
 
 		// UC-5
 

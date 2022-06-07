@@ -42,6 +42,22 @@ public class LinkedList<E extends Comparable<E>> {
 
 	}
 
+	public void insert(E insertData) {
+		Node<E> newNode = new Node<>(insertData);
+		if (head == null) {
+			head = newNode;
+		} else {
+			if (tail == null) {
+				tail = newNode;
+			} else {
+				head.next = (newNode);
+				newNode.next = (tail);
+
+			}
+		}
+
+	}
+
 	public E pop() {
 		Node<E> temp = head;
 		head = head.next;
